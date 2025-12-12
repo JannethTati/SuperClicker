@@ -144,8 +144,9 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   - {fileID: 11400000, guid: 055aa1e796c816c4392a793052079d23, type: 2}
-  - {fileID: -8859913885783894389, guid: 75a9722b96263754aa0e89f8ed71620c, type: 2}
   - {fileID: 11400000, guid: 6d640039af6337c4c9adec2ef2f2e6b3, type: 2}
+  - {fileID: -8859913885783894389, guid: 75a9722b96263754aa0e89f8ed71620c, type: 2}
+  - {fileID: 11400000, guid: 71596aeae01f992419e6126b26dba896, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -176,8 +177,8 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 2
-  AndroidMinSdkVersion: 32
-  AndroidTargetSdkVersion: 32
+  AndroidMinSdkVersion: 24
+  AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
@@ -266,7 +267,7 @@ PlayerSettings:
   useCustomGradlePropertiesTemplate: 0
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 2
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: Keystore.keystore'

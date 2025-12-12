@@ -5,11 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/4-Scenes/SuperClicker.unity
+  - enabled: 0
+    path: Assets/4-Scenes/SuperClickerVR.unity
     guid: a0309f4632c3b8141b441a8a794e06f0
+  - enabled: 1
+    path: Assets/4-Scenes/SuperClickerAR.unity
+    guid: c3cf95b6063f3ed43b4e542637a8c248
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6d640039af6337c4c9adec2ef2f2e6b3, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 230e44b80aa954c42afcd000d6d5b0c9, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 71596aeae01f992419e6126b26dba896, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 75a9722b96263754aa0e89f8ed71620c, type: 2}
   m_UseUCBPForAssetBundles: 0
